@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# --- Backend / Python ---
+.env
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments (in case you create one later)
+venv/
+.venv/
+env/
+.env/
+
+# --- Mock Database ---
+# (Optional but recommended: Ignore the generated JSON files so they don't bloat your repo)
+backend/mock_db/
+*.sqlite3
+
+# --- OS Files ---
+Thumbs.db
