@@ -5,3 +5,4 @@ faker
 google-genai
 pydantic
 python-dotenv
+mongomock
