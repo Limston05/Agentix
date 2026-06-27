@@ -186,7 +186,7 @@ function App() {
         headers['X-Provider-Key'] = customApiKey.trim();
       }
 
-      const response = await fetch('http://localhost:8000/api/chat', {
+      const response = await fetch('https://agentix-zl3w.onrender.com', {
         method: 'POST',
         headers: headers,
         body: JSON.stringify({
